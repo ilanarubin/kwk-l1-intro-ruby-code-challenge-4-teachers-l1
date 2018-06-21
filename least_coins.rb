@@ -25,6 +25,6 @@ def least_coins(cents)
 
     coins[:pennies] = cents
 
-  return coin_types
+  return coins
 
 end
