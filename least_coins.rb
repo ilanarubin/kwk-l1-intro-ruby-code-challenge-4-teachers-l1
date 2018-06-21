@@ -1,11 +1,11 @@
 #write out your code here
 
 def least_coins(cents)
-  coin_types= {
-      :quarters = 0
-      :dimes = 0
-      :nickels = 0
-      :pennies = 0
+  coins= {
+      :quarters => 0
+      :dimes => 0
+      :nickels => 0
+      :pennies => 0
   }
 
   while cents > 25
